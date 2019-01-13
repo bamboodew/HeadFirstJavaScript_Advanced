@@ -1,7 +1,17 @@
 # 目录
-[第一章 Function对象]()
-[第二章 JavaScript闭包]()
-[第三章 JavaScript面向对象实现]()
+[第一章 Function对象](https://github.com/bamboodew/HeadFirstJavaScript_Advanced#第一章-Function对象)
+
+[第二章 JavaScript闭包](https://github.com/bamboodew/HeadFirstJavaScript_Advanced#第二章-JavaScript闭包)
+
+[第三章 JavaScript面向对象实现](https://github.com/bamboodew/HeadFirstJavaScript_Advanced#第三章-JavaScript面向对象实现)
+
+# 第一章 Function对象
+## 第一节 ：Function  对象引入
+Function 是 js 的方法对象，可以用 Function 实例化出任何 js 方法对象；
+
+## 第二节 ：用 Function  创建方法对象
+## 第三节 ：Function  对象属性
+## 第四节 ：Function  对象方法
 
 # 第二章 JavaScript闭包
 ## 第一节：Js  变量的作用域
@@ -21,3 +31,17 @@
 便改变父函数内部变量的值。
 
 # 第三章 JavaScript面向对象实现
+## 第一节 ：面向对象三大特征
+## 第二节 ：JavaScript  自定义对象
+创建对象方式：方式一，对象初始化器方式；方式二，构造函数方式；
+
+对象属性定义：私有属性；对象属性；类属性；
+
+对象方法定义：私有方法；对象方法；类方法；
+
+## 第三节 ：JavaScript  实现封装特性
+## 第四节 ：JavaScript  实现继承特性
+Apply() 实现属性和方法的继承；
+
+Prototype 实现原型的继承；
+## 第五节 ：JavaScript 
