@@ -5,6 +5,7 @@
 
 [第三章 JavaScript面向对象实现](https://github.com/bamboodew/HeadFirstJavaScript_Advanced#第三章-JavaScript面向对象实现)
 
+
 # 第一章 Function对象
 ## 第一节 ：Function  对象引入
 Function 是 js 的方法对象，可以用 Function 实例化出任何 js 方法对象；
@@ -12,6 +13,7 @@ Function 是 js 的方法对象，可以用 Function 实例化出任何 js 方�
 ## 第二节 ：用 Function  创建方法对象
 ## 第三节 ：Function  对象属性
 ## 第四节 ：Function  对象方法
+
 
 # 第二章 JavaScript闭包
 ## 第一节：Js  变量的作用域
@@ -30,6 +32,7 @@ Function 是 js 的方法对象，可以用 Function 实例化出任何 js 方�
 2）闭包会在父函数外部，改变父函数内部变量的值。所以，如果你把父函数当作对象（object）使用，把闭包当作它的公用方法（Public Method），把内部变量当作它的私有属性（private value），这时一定要小心，不要随
 便改变父函数内部变量的值。
 
+
 # 第三章 JavaScript面向对象实现
 ## 第一节 ：面向对象三大特征
 ## 第二节 ：JavaScript  自定义对象
@@ -44,4 +47,4 @@ Function 是 js 的方法对象，可以用 Function 实例化出任何 js 方�
 Apply() 实现属性和方法的继承；
 
 Prototype 实现原型的继承；
-## 第五节 ：JavaScript 
+## 第五节 ：JavaScript  实现多态特性
