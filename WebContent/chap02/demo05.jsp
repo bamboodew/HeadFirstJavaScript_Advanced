@@ -12,8 +12,9 @@
 	var object={
 			name:"My object", // 定义一个键值对；是对象，不是变量。
 			getNameFunc:function(){
+				name="object func";
 				return function(){ // 返回对象
-					return this.name;
+					return name;
 				}; // 返回结束要加分号
 			}
 	};
