@@ -8,7 +8,15 @@
 </head>
 <body>
 <script type="text/javascript">
-	
+	/* 对象初始化器 */
+	var marry={
+			name:"marry", // key:value，逗号隔开
+			age:2,
+			shout:function(){
+				alert("我是："+this.name+"，今年"+this.age+"")
+			}, // 方法属性
+	};
+	aler
 </script>
 </body>
 </html>
