@@ -16,6 +16,7 @@
 	// sayFunc("Trump",60); //方法当作变量使用
 	// alert("sayFunc方法对象的的方法参数个数："+sayFunc.length);
 	alert(sayFunc.valueOf()); // toString()显示源码
+	
 </script>
 </body>
 </html>

@@ -13,10 +13,17 @@
 			name:"marry", // key:value，逗号隔开
 			age:2,
 			shout:function(){
-				alert("我是："+this.name+"，今年"+this.age+"")
+				alert("我是："+this.name+"，今年"+this.age+"了")
 			}, // 方法属性
+			action:function(){
+				alert("会吃");
+			},
 	};
-	aler
+	
+	alert(marry.name);
+	alert(marry.age);
+	marry.shout();
+	marry.action();
 </script>
 </body>
 </html>
