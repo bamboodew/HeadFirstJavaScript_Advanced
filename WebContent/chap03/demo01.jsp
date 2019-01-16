@@ -13,7 +13,7 @@
 			name:"marry", // key:value，逗号隔开
 			age:2,
 			shout:function(){
-				alert("我是："+this.name+"，今年"+this.age+"了")
+				alert("我是："+this.name+"，今年"+this.age+"了");
 			}, // 方法属性
 			action:function(){
 				alert("会吃");
@@ -24,6 +24,23 @@
 	alert(marry.age);
 	marry.shout();
 	marry.action();
+	
+	/* 构造方法 */
+	function Dog(name,age) {
+		this.name=name; // 构造属性
+		this.age=age;
+		this.shout=function(){
+			alert("我是："+this.name+"，今年"+this.age+"了");
+		};
+		this.action=function(){
+			alert("会吃");
+		};
+	}
+	var jack=new Dog("jack",1);
+	alert(jack.name);
+	alert(jack.age);
+	jack.shout();
+	jack.action();
 </script>
 </body>
 </html>
