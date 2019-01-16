@@ -10,8 +10,9 @@
 <script type="text/javascript">
 	/* 构造方法 */
 	function C(){
-		this.objPro="对象属性"；
-		C.prototype.
+		this.objPro="对象属性";
+		C.prototype.objPro2="对象属性2";
+		var 
 	}
 </script>
 </body>
