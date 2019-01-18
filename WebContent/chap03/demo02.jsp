@@ -6,16 +6,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
-	<body>
-		<script type="text/javascript">
-			/* 构造方法 */
-			function C(){
-				this.objPro="对象属性";
-				C.prototype.objPro2="对象属性2";
-				var privatePro="私有属性"; // 私有属性只能在方法内部使用
-			}
-			C.classPro="类属性";
-			alert(C.classPro);
-		</script>
-	</body>
+<body>
+<script type="text/javascript">
+	/* 构造方法 */
+	function C(){
+		this.objPro="对象属性";
+		C.prototype.objPro2="对象属性2";
+		var privatePro="私有属性";
+	}
+	C.classPro="类属性";
+	alert(C.classPro);
+	
+</script>
+</body>
 </html>
